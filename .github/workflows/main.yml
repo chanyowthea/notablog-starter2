@@ -5,6 +5,7 @@
     # Controls when the workflow will run
     # 下一行是说在每天的国际标准时间23点（北京时间早上7点）触发该任务
     # 你可以随意修改
+
     on:
       schedule:
         - cron: '0 23 * * *'    
